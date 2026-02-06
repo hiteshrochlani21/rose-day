@@ -266,7 +266,17 @@ body {
     opacity: 0;
   }
 }
+
 .text {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  color: #8b0033; /* deep rose / wine color for pink bg */
+  text-shadow: 0 0 10px rgba(139, 0, 51, 0.4);
+  margin-left: -80px;
+}
+/* .text {
   font-family: cursive;
   font-weight: 800;
   font-size: 25px;
@@ -275,7 +285,7 @@ body {
   color: rgb(245, 20, 84);
   text-shadow: 0 0 20px rgb(241, 94, 106);
   margin-left: -100px;
-}
+} */
 .text a {
   color: rgb(245, 20, 84);
 }
@@ -283,3 +293,4 @@ body {
   color: white;
   text-shadow: 0 0 20px rgb(235, 25, 42);
 }
+
